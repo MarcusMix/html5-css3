@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Titillium+Web:wght@200;400&display=swap');
+
+body {
+    background-color: rgb(187, 235, 219);
+    font-family:'Fira Sans Condensed', sans-serif; ;
+}
+
+h1 {
+    color: rgb(24, 46, 39);
+    text-shadow: 1px 1px 1px rgb(85, 85, 85);
+    
+}
+
+h1#principal { /* id */
+    text-align: center;
+    background-color: rgb(94, 172, 146);
+    border-radius: 7px;
+    color: whitesmoke;
+}
+
+h2 {
+    color: rgb(85, 168, 141);
+    text-shadow: 1px 1px 1px rgb(85, 85, 85);
+}
+
+p {
+    text-indent: 15px;
+}
+
+.basico {
+    color: rgba(0, 0, 0, 0.527);
+    background-color: rgb(94, 172, 146);
+  
+    border-radius: 7px;
+}
+
+.aprender {
+    color: rgb(30, 133, 90);
+}

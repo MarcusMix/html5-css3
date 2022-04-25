@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(43, 226, 211);
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        a:active {
+            color: yellow;
+        }
+
+        .principal::before {
+            content: "[link]";
+        }
+
+        .principal::after {
+            content: "[link]"
+        }
+    </style>
+</head>
+<body>
+    <ul>
+            <li> <a href="https://www.youtube.com/watch?v=_MJ0qLCk1VU" target="_blank" class="principal">Ta com o dia ruim?clica</a></li>
+            <li> <a href="https://teams.microsoft.com/_?lm=deeplink&lmsrc=NeutralHomePageWeb&cmpid=WebSignIn&culture=pt-br&country=br#/apps/66aeee93-507d-479a-a3ef-8f494af43945/sections/classroom" target="_blank" >Show de bolismo</a></li>
+            <li> <a href="https://br.pinterest.com/phamnguyen150509/" target="_blank" >Youtube massa</a></li>
+    </ul>
+</body>
+</html>

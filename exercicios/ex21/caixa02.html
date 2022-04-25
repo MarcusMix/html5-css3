@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupin Tags</title>
+    <style>
+        body {
+            background-color: lightskyblue;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+
+        header {
+            background-color: rgb(95, 95, 161);
+            padding: 10px;
+            margin: auto;
+        }
+        section#not {
+            background-color: rgb(150, 70, 70);
+        }
+
+        section#esp {
+            background-color: aquamarine;
+        }
+
+        footer {
+            background-color: aquamarine;
+            padding: 5px;
+        }
+
+        footer > p {
+            text-align: center;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(93, 192, 98);
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav id="links">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="esp">
+            <p>Esportes, política e tecnologia.</p>
+        </section>
+        <section id="not">
+            <h2>Notícias de Florianópolis</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis culpa eos accusantium quidem at qui voluptatibus porro expedita minima. Explicabo velit odio aliquid pariatur et ipsum, culpa deleniti esse!</p>
+            <aside><p>Artigo do FloripaMilGrau</p></aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo marcus</p>
+
+    </footer>
+</body>
+</html>
