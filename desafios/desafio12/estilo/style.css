@@ -96,7 +96,7 @@ div#img1 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.404);
 }
 
