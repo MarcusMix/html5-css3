@@ -1,5 +1,119 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0px;
+}
+
 body {
-    background-color: aquamarine;
+    max-width: 800px;
+    min-height: 350px;
+    margin: auto;
+    font-family: 'Square Peg', cursive; 
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 > header {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+p {
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#txt1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    color: black;
+}
+
+#txt2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 250px;
+    height: 280px;
+    color: white;
+}
+
+#txt3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#txt4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+#txt5 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 250px;
+    height: 280px;
+    color: white;
+}
+
+#txt6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#txt7 {
+    padding-bottom: 100px;
+}
+
+div#img1 {
+    background-image: url('../imagens/background001.jpg');
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.404);
+}
+
+div#img2 {
+    background-image: url('../imagens/background002.jpg');
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.404);
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+footer > p {
+    font-size: 12px;
+    text-align: center;
+   
 }
