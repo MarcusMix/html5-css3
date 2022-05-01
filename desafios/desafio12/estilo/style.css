@@ -39,13 +39,15 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: rebeccapurple;
+    color: rgb(79, 190, 218);
 }
+
 p {
     padding-left: 50px;
     font-size: 30px;
     font-weight: 600;
 }
+
 #txt1 {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -90,7 +92,7 @@ p {
     padding-bottom: 100px;
 }
 
-div#img1 {
+section#img1 {
     background-image: url('../imagens/background001.jpg');
     min-height: 350px;
     background-attachment: fixed;
@@ -100,7 +102,7 @@ div#img1 {
     box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.404);
 }
 
-div#img2 {
+section#img2 {
     background-image: url('../imagens/background002.jpg');
     min-height: 350px;
     background-attachment: fixed;
@@ -111,14 +113,13 @@ div#img2 {
 }
 
 footer {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: white;
-    height: 30px;
+    padding: 10px;
 }
 
 footer > p {
     font-size: 12px;
     text-align: center;
-   
 }
