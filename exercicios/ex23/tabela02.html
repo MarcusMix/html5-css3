@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+
+        thead {
+            color: white;
+            background-color: gray;
+        }
+
+        tfoot {
+            color: white;
+            background-color: gray;
+        }
+
+        .dados {
+            color: black;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Anatomia para tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="dados">São Paulo</td>
+                <td class="num">54 milhões</td>
+            </tr>
+            <tr>
+                <td class="dados">Rio de Janeiro</td>
+                <td class="num">19 milhões</td>
+            </tr>
+            <tr>
+                <td class="dados">Santa Catarina</td>
+                <td class="num">7 milhões</td>
+            </tr>
+            <tr>
+                <td class="dados">Rio Grande do Sul</td>
+                <td class="num">11 milhões</td>
+            </tr>
+            <tr>
+                <td class="dados">Paraná</td>
+                <td class="num">11 milhões</td>
+            </tr>
+            <tr>
+                <td class="dados">Bahia</td>
+                <td class="num">8 milhões</td>
+            </tr>
+            <tr>
+                <td class="dados">Mato Grosso do Sul</td>
+                <td class="num">10 milhões</td>
+            </tr>
+            <tr>
+                <td class="dados">Amazonas</td>
+                <td class="num">5 milhões</td>
+            </tr>
+            <tr>
+                <td class="dados">Espírito Santos</td>
+                <td class="num">1 milhão</td>
+            </tr>
+            <tfoot>
+                <th>Total de Habitantes</th>
+                <td class="num">126 milhões</td>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
